@@ -38,7 +38,7 @@
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 22,
-    "fontSize": 12,
+    "fontSize": 12
   },
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
