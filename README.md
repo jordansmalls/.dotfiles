@@ -36,7 +36,7 @@ this was a shameful rabbit hole to go down. i prefer chromium-based browsers for
 #### terminal
 - ghostty
 - zsh (oh-my-zsh)
-- tmux (oh-my-zsh)
+- tmux (oh-my-tmux)
 - nvm
 
 #### browser
