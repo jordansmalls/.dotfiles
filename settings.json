@@ -1,0 +1,166 @@
+{
+  // General editor settings
+  "editor.fontFamily": "UbuntuMono Nerd Font, Hack Nerd Font, FiraCode Nerd Font,Consolas NF, Iosevka Nerd Font,JetBrainsMono Nerd Font, GeistMono Nerd Font, CaskaydiaCove Nerd Font Propo, CodeNewRoman Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": "'ss01', 'cv03', 'zero'",
+  "editor.fontWeight": "normal",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnPaste": true,
+  "editor.smoothScrolling": true,
+  "editor.fontVariations": true,
+  "editor.cursorBlinking": "blink",
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 22,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.autoSave": "afterDelay",
+  "editor.autoSaveDelay": 1000,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/build": true
+  },
+
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+  "prettier.printWidth": 80,
+
+  // JavaScript/TypeScript settings
+  "javascript.format.enable": true,
+  "typescript.format.enable": true,
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.implicitProjectConfig.checkJs": true,
+  "typescript.implicitProjectConfig.checkJs": true,
+
+  // Enable JS/TS/Node.js IntelliSense for popular frameworks
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "typescript.implicitProjectConfig.experimentalDecorators": true,
+
+  // HTML/CSS settings
+  "html.format.indentInnerHtml": true,
+  "css.validate": true,
+  "scss.validate": true,
+  "less.validate": true,
+  "css.lint.emptyRules": "ignore",
+  "css.lint.float": "ignore",
+  "css.lint.unknownProperties": "ignore",
+
+  // Node.js/Server-side development
+  "node.enableGlobalCache": true,
+  "node.autoDetect": "on",
+  "npm.packageManager": "yarn",
+  "npm.enableScriptExplorer": true,
+
+  // Git Integration
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.statusBar.enabled": true,
+
+  // Extensions
+  "extensions.ignoreRecommendations": false,
+
+  // Emmet settings (for HTML & CSS/JSX)
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+
+  // Integrated terminal settings
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font, Hack Nerd Font, CodeNewRoman Nerd Font",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+
+  // Live Server settings
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.ignoreFiles": [
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+
+  // Debug settings
+  "debug.openDebug": "neverIfOne",
+  "debug.console.fontSize": 14,
+  "debug.inlineValues": true,
+  "debug.allowBreakpointsEverywhere": true,
+
+  // Auto-completion and IntelliSense
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // Snippets for JavaScript/React/HTML
+  "editor.snippetSuggestions": "top",
+
+  // Workspace-specific settings (e.g., Node version)
+  "node.defaultRuntimeExecutable": "node",
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+
+  // Performance settings
+  "search.followSymlinks": false,
+  "files.maxMemoryForLargeFilesMB": 4096,
+
+  // Workspace Trust settings
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Color Theme & Icons
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "terminal",
+
+  // catppuccin settings
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
+  "catppuccin.bracketMode": "neovim",
+
+  // Explorer settings
+  "explorer.confirmPasteNative": false,
+
+  // Side bar & status bar
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 1,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+
+  // VS Code settings for a cleaner workspace
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.folding": false,
+  "editor.mouseWheelZoom": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.sideBar.visible": false,
+  "workbench.startupEditor": "none",
+  "editor.cursorStyle": "line",
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 1000,
+  "editor.guides.indentation": false,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.lineNumbers": "off",
+  "workbench.colorTheme": "Best Themes - Midnight City"
+}

@@ -1,1 +1,0 @@
-Testing pushing file w/ git from Arch Linux machine
