@@ -28,6 +28,8 @@ once i finish my linux configs, i will share my vimrc. on work machines, i use l
 
 this was a shameful rabbit hole to go down. i prefer chromium-based browsers for reasons you can find on my blog, but in short i want a browsing experience that is ***minimal.*** currently, i am using zen browser. its "zen mods" are quite cool, and it provides the minimal experience i want without much configuration. but it is firefox-based. arc browser is dead, vivaldi didn't quite hit the mark, brave is becoming as bloated as netscape and edge did not allow for the customization i needed. so, zen browser it is.
 
+i tried, firefox is bad, back to chrome i go.
+
 ## the short list
 
 #### editor
@@ -40,8 +42,8 @@ this was a shameful rabbit hole to go down. i prefer chromium-based browsers for
 - nvm
 
 #### browser
-- zen browser
-- *some* chrome (dev tools)
+- chrome
+- arc (for some casual browsing)
 
 #### linux
 - fedora 40 w/ i3 (desktop)
